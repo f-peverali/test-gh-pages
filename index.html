@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Table</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <input type="text" id="search" placeholder="Filter table..." onkeyup="filterTable()">
+  <table id="myTable" border="1">
+    <tr><th>Name</th><th>Age</th><th>City</th></tr>
+    <tr><td>Alice</td><td>30</td><td>Berlin</td></tr>
+    <tr><td>Bob</td><td>25</td><td>Hamburg</td></tr>
+    <tr><td>Charlie</td><td>35</td><td>Munich</td></tr>
+  </table>
+  <script>
+    function filterTable() {
+      let input = document.getElementById('search').value.toLowerCase();
+      let rows = document.querySelectorAll('#myTable tr:not(:first-child)');
+      rows.forEach(row => {
+        row.style.display = row.textContent.toLowerCase().includes(input) ? '' : 'none';
+      });
+    }
+  </script>
+</body>
+</html>
