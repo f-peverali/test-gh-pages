@@ -36,28 +36,65 @@
             document.getElementById('tableBody').innerHTML = '<tr><td>No data available</td></tr>';
             return;
         }
-        
-        // Create header row based on the keys in the first object
+
+        // Define the columns to display
+        const columns = [
+            'name',
+            'url',
+            'default_branch',
+            'structure_url',
+            'resourceType',
+            'meta_profile',
+            'type',
+            'file_name',
+            'raw_url'
+        ];
+
+        // Create header row
         const headerRow = document.getElementById('headerRow');
-        Object.keys(data[0]).forEach(key => {
+        headerRow.innerHTML = '';
+        const headers = [
+            'Name',
+            'Repo URL',
+            'Default Branch',
+            'StructureDefinition URL',
+            'Resource Type',
+            'Meta Profile',
+            'Type',
+            'File Name',
+            'Raw URL'
+        ];
+        headers.forEach(header => {
             const th = document.createElement('th');
-            th.textContent = key;
+            th.textContent = header;
             headerRow.appendChild(th);
         });
-        
-        // Create table rows for each data item
+
+        // Create table rows for each structure_definition
         const tableBody = document.getElementById('tableBody');
+        tableBody.innerHTML = '';
         data.forEach(item => {
-            const row = document.createElement('tr');
-            Object.values(item).forEach(value => {
-                const td = document.createElement('td');
-                td.textContent = value;
-                row.appendChild(td);
-            });
-            tableBody.appendChild(row);
+            if (Array.isArray(item.structure_definitions)) {
+                item.structure_definitions.forEach(sd => {
+                    const row = document.createElement('tr');
+                    // Add parent fields
+                    [item.name, item.url, item.default_branch].forEach(val => {
+                        const td = document.createElement('td');
+                        td.textContent = val;
+                        row.appendChild(td);
+                    });
+                    // Add structure_definition fields
+                    [sd.url, sd.resourceType, sd.meta_profile, sd.type, sd.file_name, sd.raw_url].forEach(val => {
+                        const td = document.createElement('td');
+                        td.textContent = val;
+                        row.appendChild(td);
+                    });
+                    tableBody.appendChild(row);
+                });
+            }
         });
     }
-</script>
+  </script>
   <script>
     function filterTable() {
       let input = document.getElementById('search').value.toLowerCase();
