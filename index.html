@@ -6,12 +6,58 @@
 </head>
 <body>
   <input type="text" id="search" placeholder="Filter table..." onkeyup="filterTable()">
-  <table id="myTable" border="1">
-    <tr><th>Name</th><th>Age</th><th>City</th></tr>
-    <tr><td>Alice</td><td>30</td><td>Berlin</td></tr>
-    <tr><td>Bob</td><td>25</td><td>Hamburg</td></tr>
-    <tr><td>Charlie</td><td>35</td><td>Munich</td></tr>
-  </table>
+<table id="myTable" border="1">
+    <thead>
+        <tr id="headerRow"></tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+</table>
+<script>
+    // Fetch and load JSON data when the page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        fetch('all_profiles_combined.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                renderTable(data);
+            })
+            .catch(error => {
+                console.error('Error loading JSON:', error);
+                document.getElementById('tableBody').innerHTML = '<tr><td colspan="100">Error loading data</td></tr>';
+            });
+    });
+
+    function renderTable(data) {
+        if (!Array.isArray(data) || data.length === 0) {
+            document.getElementById('tableBody').innerHTML = '<tr><td>No data available</td></tr>';
+            return;
+        }
+        
+        // Create header row based on the keys in the first object
+        const headerRow = document.getElementById('headerRow');
+        Object.keys(data[0]).forEach(key => {
+            const th = document.createElement('th');
+            th.textContent = key;
+            headerRow.appendChild(th);
+        });
+        
+        // Create table rows for each data item
+        const tableBody = document.getElementById('tableBody');
+        data.forEach(item => {
+            const row = document.createElement('tr');
+            Object.values(item).forEach(value => {
+                const td = document.createElement('td');
+                td.textContent = value;
+                row.appendChild(td);
+            });
+            tableBody.appendChild(row);
+        });
+    }
+</script>
   <script>
     function filterTable() {
       let input = document.getElementById('search').value.toLowerCase();

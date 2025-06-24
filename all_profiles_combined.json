@@ -1,0 +1,2814 @@
+[
+  {
+    "name": "spec-ISiK-Basismodul",
+    "url": "https://github.com/gematik/spec-ISiK-Basismodul",
+    "default_branch": "main-stufe-5",
+    "structure_definitions": [
+      {
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.replaces",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-AppointmentReplaces.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-AppointmentReplaces.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/BackportSubscriptionNotificationR4Fixed",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Bundle",
+        "file_name": "StructureDefinition-BackportSubscriptionNotificationR4Fixed.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-BackportSubscriptionNotificationR4Fixed.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/BackportSubscriptionStatusR4Fixed",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Parameters",
+        "file_name": "StructureDefinition-BackportSubscriptionStatusR4Fixed.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-BackportSubscriptionStatusR4Fixed.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ExtensionISiKAcceptedRisk",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ExtensionISiKAcceptedRisk.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ExtensionISiKAcceptedRisk.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ExtensionISiKBehandlungsziel",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ExtensionISiKBehandlungsziel.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ExtensionISiKBehandlungsziel.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ExtensionISiKCapabilityStatementImportsExpectation",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ExtensionISiKCapabilityStatementImportsExpectation.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ExtensionISiKCapabilityStatementImportsExpectation.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ExtensionISiKMedicationRequestReplaces",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ExtensionISiKMedicationRequestReplaces.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ExtensionISiKMedicationRequestReplaces.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ExtensionISiKMedicationStatementReplaces",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ExtensionISiKMedicationStatementReplaces.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ExtensionISiKMedicationStatementReplaces.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ExtensionISiKMedikationsart",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ExtensionISiKMedikationsart.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ExtensionISiKMedikationsart.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ExtensionISiKRehaEntlassung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ExtensionISiKRehaEntlassung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ExtensionISiKRehaEntlassung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ExtensionISiKSelbstmedikation",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ExtensionISiKSelbstmedikation.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ExtensionISiKSelbstmedikation.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKAMTSBewertung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "RiskAssessment",
+        "file_name": "StructureDefinition-ISiKAMTSBewertung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKAMTSBewertung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKASKCoding",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coding",
+        "file_name": "StructureDefinition-ISiKASKCoding.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKASKCoding.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKATCCoding",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coding",
+        "file_name": "StructureDefinition-ISiKATCCoding.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKATCCoding.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKAbrechnungsfall",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Account",
+        "file_name": "StructureDefinition-ISiKAbrechnungsfall.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKAbrechnungsfall.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKAlkoholAbusus",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKAlkoholAbusus.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKAlkoholAbusus.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKAllergieUnvertraeglichkeit",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "AllergyIntolerance",
+        "file_name": "StructureDefinition-ISiKAllergieUnvertraeglichkeit.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKAllergieUnvertraeglichkeit.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKAngehoeriger",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "RelatedPerson",
+        "file_name": "StructureDefinition-ISiKAngehoeriger.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKAngehoeriger.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKAtemfrequenz",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKAtemfrequenz.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKAtemfrequenz.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKBerichtBundle",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Bundle",
+        "file_name": "StructureDefinition-ISiKBerichtBundle.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKBerichtBundle.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKBerichtSubSysteme",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Composition",
+        "file_name": "StructureDefinition-ISiKBerichtSubSysteme.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKBerichtSubSysteme.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKBinary",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Binary",
+        "file_name": "StructureDefinition-ISiKBinary.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKBinary.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKBlutdruckSystemischArteriell",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKBlutdruckSystemischArteriell.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKBlutdruckSystemischArteriell.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKCodeSystem",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "CodeSystem",
+        "file_name": "StructureDefinition-ISiKCodeSystem.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKCodeSystem.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKCoding",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coding",
+        "file_name": "StructureDefinition-ISiKCoding.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKCoding.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKDiagnose",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Condition",
+        "file_name": "StructureDefinition-ISiKDiagnose.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKDiagnose.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKDokumentenMetadaten",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "DocumentReference",
+        "file_name": "StructureDefinition-ISiKDokumentenMetadaten.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKDokumentenMetadaten.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKDokumentenSuchergebnisse",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Bundle",
+        "file_name": "StructureDefinition-ISiKDokumentenSuchergebnisse.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKDokumentenSuchergebnisse.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKEKG",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKEKG.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKEKG.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKFormularDaten",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "QuestionnaireResponse",
+        "file_name": "StructureDefinition-ISiKFormularDaten.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKFormularDaten.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKFormularDefinition",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Questionnaire",
+        "file_name": "StructureDefinition-ISiKFormularDefinition.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKFormularDefinition.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKGCS",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKGCS.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKGCS.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKHerzfrequenz",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKHerzfrequenz.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKHerzfrequenz.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKICD10GMCoding",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coding",
+        "file_name": "StructureDefinition-ISiKICD10GMCoding.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKICD10GMCoding.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKalender",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Schedule",
+        "file_name": "StructureDefinition-ISiKKalender.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKKalender.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpergewicht",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKKoerpergewicht.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKKoerpergewicht.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpergroesse",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKKoerpergroesse.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKKoerpergroesse.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerperkerntemperatur",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKKoerperkerntemperatur.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKKoerperkerntemperatur.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpertemperatur",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKKoerpertemperatur.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKKoerpertemperatur.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKontaktGesundheitseinrichtung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Encounter",
+        "file_name": "StructureDefinition-ISiKKontaktGesundheitseinrichtung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKKontaktGesundheitseinrichtung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKopfumfang",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKKopfumfang.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKKopfumfang.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLaboruntersuchung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKLaboruntersuchung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungCRP",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLaboruntersuchungCRP.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKLaboruntersuchungCRP.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungGFR",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLaboruntersuchungGFR.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKLaboruntersuchungGFR.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungHb",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLaboruntersuchungHb.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKLaboruntersuchungHb.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungPCT",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLaboruntersuchungPCT.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKLaboruntersuchungPCT.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungSerumkreatinin",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLaboruntersuchungSerumkreatinin.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKLaboruntersuchungSerumkreatinin.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungTSH",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLaboruntersuchungTSH.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKLaboruntersuchungTSH.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungThrombozyten",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLaboruntersuchungThrombozyten.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKLaboruntersuchungThrombozyten.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungTroponin",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLaboruntersuchungTroponin.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKLaboruntersuchungTroponin.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLebensZustand",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLebensZustand.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKLebensZustand.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLoincCoding",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coding",
+        "file_name": "StructureDefinition-ISiKLoincCoding.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKLoincCoding.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKMDRRelevanzFormularExtension",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ISiKMDRRelevanzFormularExtension.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKMDRRelevanzFormularExtension.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKMedikament",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Medication",
+        "file_name": "StructureDefinition-ISiKMedikament.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKMedikament.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKMedikationTransaction",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Bundle",
+        "file_name": "StructureDefinition-ISiKMedikationTransaction.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKMedikationTransaction.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKMedikationTransactionResponse",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Bundle",
+        "file_name": "StructureDefinition-ISiKMedikationTransactionResponse.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKMedikationTransactionResponse.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKMedikationsInformation",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "MedicationStatement",
+        "file_name": "StructureDefinition-ISiKMedikationsInformation.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKMedikationsInformation.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKMedikationsListe",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "List",
+        "file_name": "StructureDefinition-ISiKMedikationsListe.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKMedikationsListe.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKMedikationsVerabreichung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "MedicationAdministration",
+        "file_name": "StructureDefinition-ISiKMedikationsVerabreichung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKMedikationsVerabreichung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKMedikationsVerordnung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "MedicationRequest",
+        "file_name": "StructureDefinition-ISiKMedikationsVerordnung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKMedikationsVerordnung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKMedizinischeBehandlungseinheit",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "HealthcareService",
+        "file_name": "StructureDefinition-ISiKMedizinischeBehandlungseinheit.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKMedizinischeBehandlungseinheit.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKOrganisation",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Organization",
+        "file_name": "StructureDefinition-ISiKOrganisation.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKOrganisation.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKOrganisationFachabteilung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Organization",
+        "file_name": "StructureDefinition-ISiKOrganisationFachabteilung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKOrganisationFachabteilung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKPZNCoding",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coding",
+        "file_name": "StructureDefinition-ISiKPZNCoding.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKPZNCoding.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKPatient",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Patient",
+        "file_name": "StructureDefinition-ISiKPatient.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKPatient.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKPersonImGesundheitsberuf",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Practitioner",
+        "file_name": "StructureDefinition-ISiKPersonImGesundheitsberuf.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKPersonImGesundheitsberuf.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKProzedur",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Procedure",
+        "file_name": "StructureDefinition-ISiKProzedur.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKProzedur.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKRaucherStatus",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKRaucherStatus.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKRaucherStatus.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigungArteriell",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKSauerstoffsaettigungArteriell.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKSauerstoffsaettigungArteriell.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKSchwangerschaftErwarteterEntbindungstermin",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKSchwangerschaftErwarteterEntbindungstermin.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKSchwangerschaftErwarteterEntbindungstermin.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKSchwangerschaftsstatus",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKSchwangerschaftsstatus.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKSchwangerschaftsstatus.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKSnomedCTCoding",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coding",
+        "file_name": "StructureDefinition-ISiKSnomedCTCoding.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKSnomedCTCoding.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKStandort",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Location",
+        "file_name": "StructureDefinition-ISiKStandort.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKStandort.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKStandortBettenstellplatz",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Location",
+        "file_name": "StructureDefinition-ISiKStandortBettenstellplatz.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKStandortBettenstellplatz.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKStandortRaum",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Location",
+        "file_name": "StructureDefinition-ISiKStandortRaum.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKStandortRaum.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKStillstatus",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKStillstatus.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKStillstatus.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKSubscription",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Subscription",
+        "file_name": "StructureDefinition-ISiKSubscription.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKSubscription.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKSubscriptionNotification",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Bundle",
+        "file_name": "StructureDefinition-ISiKSubscriptionNotification.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKSubscriptionNotification.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKSubscriptionStatus",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Parameters",
+        "file_name": "StructureDefinition-ISiKSubscriptionStatus.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKSubscriptionStatus.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKTermin",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Appointment",
+        "file_name": "StructureDefinition-ISiKTermin.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKTermin.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKTerminKontaktMitGesundheitseinrichtung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Encounter",
+        "file_name": "StructureDefinition-ISiKTerminKontaktMitGesundheitseinrichtung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKTerminKontaktMitGesundheitseinrichtung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKTerminPriorityExtension",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ISiKTerminPriorityExtension.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKTerminPriorityExtension.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKTerminblock",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Slot",
+        "file_name": "StructureDefinition-ISiKTerminblock.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKTerminblock.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKValueSet",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "ValueSet",
+        "file_name": "StructureDefinition-ISiKValueSet.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKValueSet.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKVersicherungsverhaeltnisGesetzlich",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coverage",
+        "file_name": "StructureDefinition-ISiKVersicherungsverhaeltnisGesetzlich.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKVersicherungsverhaeltnisGesetzlich.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKVersicherungsverhaeltnisSelbstzahler",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coverage",
+        "file_name": "StructureDefinition-ISiKVersicherungsverhaeltnisSelbstzahler.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKVersicherungsverhaeltnisSelbstzahler.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKVersicherungsverhaeltnisSonstige",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coverage",
+        "file_name": "StructureDefinition-ISiKVersicherungsverhaeltnisSonstige.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ISiKVersicherungsverhaeltnisSonstige.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/MedicationQuantity",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Quantity",
+        "file_name": "StructureDefinition-MedicationQuantity.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-MedicationQuantity.json"
+      },
+      {
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedEndDate",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-PlannedEndDate.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-PlannedEndDate.json"
+      },
+      {
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedStartDate",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-PlannedStartDate.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-PlannedStartDate.json"
+      },
+      {
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.name",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ScheduleName.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-ScheduleName.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-herzzeitvolumen",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-herzzeitvolumen.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-herzzeitvolumen.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-ideales-koerpergewicht",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-ideales-koerpergewicht.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-ideales-koerpergewicht.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-intrakranieller-druck-icp",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-intrakranieller-druck-icp.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-intrakranieller-druck-icp.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpergewicht-percentil-altersabhaengig",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpergewicht-percentil-altersabhaengig.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpergewicht-percentil-altersabhaengig.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpergroesse-percentil-altersabhaengig",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpergroesse-percentil-altersabhaengig.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpergroesse-percentil-altersabhaengig.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-achsel",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-achsel.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-achsel.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-atemwege",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-atemwege.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-atemwege.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-blut",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-blut.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-blut.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-brust",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-brust.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-brust.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-brustwirbelsaeule",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-brustwirbelsaeule.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-brustwirbelsaeule.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-gelenk",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-gelenk.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-gelenk.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-generisch",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-generisch.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-generisch.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-halswirbelsaeule",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-halswirbelsaeule.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-halswirbelsaeule.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-harnblase",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-harnblase.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-harnblase.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-kern",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-kern.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-kern.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-leiste",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-leiste.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-leiste.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-lendenwirbelsaeule",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-lendenwirbelsaeule.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-lendenwirbelsaeule.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-myokard",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-myokard.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-myokard.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-nasal",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-nasal.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-nasal.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-nasen-rachen-raum",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-nasen-rachen-raum.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-nasen-rachen-raum.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-rektal",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-rektal.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-rektal.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-speiseroehre",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-speiseroehre.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-speiseroehre.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-stirn",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-stirn.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-stirn.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-trommelfell",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-trommelfell.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-trommelfell.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-unter-der-zunge",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-unter-der-zunge.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-unter-der-zunge.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-vaginal",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-vaginal.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-vaginal.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksatrialer-druck",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-linksatrialer-druck.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksatrialer-druck.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventri-herzindex-durch-indikatorverduennung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-linksventri-herzindex-durch-indikatorverduennung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventri-herzindex-durch-indikatorverduennung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventri-herzzeitvolumen-durch-indikatorverd",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-linksventri-herzzeitvolumen-durch-indikatorverd.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventri-herzzeitvolumen-durch-indikatorverd.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventri-schlagvolumen-durch-indikatorverduennung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-linksventri-schlagvolumen-durch-indikatorverduennung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventri-schlagvolumen-durch-indikatorverduennung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventri-schlagvolumenindex-durch-indikatorverd",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-linksventri-schlagvolumenindex-durch-indikatorverd.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventri-schlagvolumenindex-durch-indikatorverd.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventrikulaerer-druck",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-linksventrikulaerer-druck.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventrikulaerer-druck.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventrikulaerer-herzindex",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-linksventrikulaerer-herzindex.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventrikulaerer-herzindex.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventrikulaeres-schlagvolumen",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-linksventrikulaeres-schlagvolumen.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventrikulaeres-schlagvolumen.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventrikulaeres-schlagvolumenindex",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-linksventrikulaeres-schlagvolumenindex.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventrikulaeres-schlagvolumenindex.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-monitoring-und-vitaldaten",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-monitoring-und-vitaldaten.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-monitoring-und-vitaldaten.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-o2saettigung-im-blut-postduktal-durch-pulsoxymetrie",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-o2saettigung-im-blut-postduktal-durch-pulsoxymetrie.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-o2saettigung-im-blut-postduktal-durch-pulsoxymetrie.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-o2saettigung-im-blut-preduktal-durch-pulsoxymetrie",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-o2saettigung-im-blut-preduktal-durch-pulsoxymetrie.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-o2saettigung-im-blut-preduktal-durch-pulsoxymetrie.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-pulmonalarterieller-blutdruck",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-pulmonalarterieller-blutdruck.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-pulmonalarterieller-blutdruck.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-pulmonalarterieller-wedge-druck",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-pulmonalarterieller-wedge-druck.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-pulmonalarterieller-wedge-druck.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-pulmonalvaskulaerer-widerstandsindex",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-pulmonalvaskulaerer-widerstandsindex.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-pulmonalvaskulaerer-widerstandsindex.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-puls",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-puls.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-puls.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-rechtsatrialer-druck",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-rechtsatrialer-druck.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-rechtsatrialer-druck.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-rechtsventrikulaerer-druck",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-rechtsventrikulaerer-druck.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-rechtsventrikulaerer-druck.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-sonstige-pulsatile-druecke-generisch",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-sonstige-pulsatile-druecke-generisch.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-sonstige-pulsatile-druecke-generisch.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-systemischer-vaskulaerer-widerstandsindex",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-systemischer-vaskulaerer-widerstandsindex.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-systemischer-vaskulaerer-widerstandsindex.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-zentralvenoeser-blutdruck",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-zentralvenoeser-blutdruck.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Basismodul/main-stufe-5/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-zentralvenoeser-blutdruck.json"
+      }
+    ]
+  },
+  {
+    "name": "spec-VSDM-Ersatzbescheinigung",
+    "url": "https://github.com/gematik/spec-VSDM-Ersatzbescheinigung",
+    "default_branch": "master",
+    "structure_definitions": [
+      {
+        "url": "https://gematik.de/fhir/eeb/StructureDefinition/EEBAnfrageBundle",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Bundle",
+        "file_name": "StructureDefinition-EEBAnfrageBundle.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-VSDM-Ersatzbescheinigung/master/Resources/fsh-generated/resources/StructureDefinition-EEBAnfrageBundle.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/eeb/StructureDefinition/EEBAnfrageHeader",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "MessageHeader",
+        "file_name": "StructureDefinition-EEBAnfrageHeader.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-VSDM-Ersatzbescheinigung/master/Resources/fsh-generated/resources/StructureDefinition-EEBAnfrageHeader.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/eeb/StructureDefinition/EEBBescheinigungBundle",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Bundle",
+        "file_name": "StructureDefinition-EEBBescheinigungBundle.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-VSDM-Ersatzbescheinigung/master/Resources/fsh-generated/resources/StructureDefinition-EEBBescheinigungBundle.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/eeb/StructureDefinition/EEBBescheinigungHeader",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "MessageHeader",
+        "file_name": "StructureDefinition-EEBBescheinigungHeader.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-VSDM-Ersatzbescheinigung/master/Resources/fsh-generated/resources/StructureDefinition-EEBBescheinigungHeader.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/eeb/StructureDefinition/EEBCoverageEgk",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coverage",
+        "file_name": "StructureDefinition-EEBCoverageEgk.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-VSDM-Ersatzbescheinigung/master/Resources/fsh-generated/resources/StructureDefinition-EEBCoverageEgk.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/eeb/StructureDefinition/EEBCoverageEgkNoAddressLine",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coverage",
+        "file_name": "StructureDefinition-EEBCoverageEgkNoAddressLine.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-VSDM-Ersatzbescheinigung/master/Resources/fsh-generated/resources/StructureDefinition-EEBCoverageEgkNoAddressLine.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/eeb/StructureDefinition/EEBCoverageNoEgk",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coverage",
+        "file_name": "StructureDefinition-EEBCoverageNoEgk.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-VSDM-Ersatzbescheinigung/master/Resources/fsh-generated/resources/StructureDefinition-EEBCoverageNoEgk.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/eeb/StructureDefinition/EEBFehler",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "OperationOutcome",
+        "file_name": "StructureDefinition-EEBFehler.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-VSDM-Ersatzbescheinigung/master/Resources/fsh-generated/resources/StructureDefinition-EEBFehler.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/eeb/StructureDefinition/EEBKnownPatient",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Patient",
+        "file_name": "StructureDefinition-EEBKnownPatient.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-VSDM-Ersatzbescheinigung/master/Resources/fsh-generated/resources/StructureDefinition-EEBKnownPatient.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/eeb/StructureDefinition/AllgemeineVersicherungsdaten",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-allgemeine-versicherungsdaten.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-VSDM-Ersatzbescheinigung/master/Resources/fsh-generated/resources/StructureDefinition-allgemeine-versicherungsdaten.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/eeb/StructureDefinition/EEBOperationOutcomeIssueIdentifier",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-eeb-operation-outcome-issue-identifier.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-VSDM-Ersatzbescheinigung/master/Resources/fsh-generated/resources/StructureDefinition-eeb-operation-outcome-issue-identifier.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/eeb/StructureDefinition/Einverstaendnis",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-einverstaendnis.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-VSDM-Ersatzbescheinigung/master/Resources/fsh-generated/resources/StructureDefinition-einverstaendnis.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/eeb/StructureDefinition/GeschuetzteVersichertendaten",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-geschuetzte-versichertendaten.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-VSDM-Ersatzbescheinigung/master/Resources/fsh-generated/resources/StructureDefinition-geschuetzte-versichertendaten.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/eeb/StructureDefinition/Institutionskennzeichen",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-institutionskennzeichen.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-VSDM-Ersatzbescheinigung/master/Resources/fsh-generated/resources/StructureDefinition-institutionskennzeichen.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/eeb/StructureDefinition/Leistungsdatum",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-leistungsdatum.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-VSDM-Ersatzbescheinigung/master/Resources/fsh-generated/resources/StructureDefinition-leistungsdatum.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/eeb/StructureDefinition/PersoenlicheVersichertendaten",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-persoenliche-versichertendaten.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-VSDM-Ersatzbescheinigung/master/Resources/fsh-generated/resources/StructureDefinition-persoenliche-versichertendaten.json"
+      }
+    ]
+  },
+  {
+    "name": "spec-E-Rezept-Workflow-EU",
+    "url": "https://github.com/gematik/spec-E-Rezept-Workflow-EU",
+    "default_branch": "main",
+    "structure_definitions": [
+      {
+        "url": "https://gematik.de/fhir/erp-eu/StructureDefinition/GEM_ERPEU_EX_MedicinalPackageDescription",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-GEM-ERPEU-EX-MedicinalPackageDescription.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-Workflow-EU/main/Resources/fsh-generated/resources/StructureDefinition-GEM-ERPEU-EX-MedicinalPackageDescription.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-eu/StructureDefinition/GEM_ERPEU_EX_MedicinalPackageIdentifier",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-GEM-ERPEU-EX-MedicinalPackageIdentifier.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-Workflow-EU/main/Resources/fsh-generated/resources/StructureDefinition-GEM-ERPEU-EX-MedicinalPackageIdentifier.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-eu/StructureDefinition/GEM_ERPEU_PR_Access_Code",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Identifier",
+        "file_name": "StructureDefinition-GEM-ERPEU-PR-AccessCode.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-Workflow-EU/main/Resources/fsh-generated/resources/StructureDefinition-GEM-ERPEU-PR-AccessCode.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-eu/StructureDefinition/GEM_ERPEU_PR_Consent",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Consent",
+        "file_name": "StructureDefinition-GEM-ERPEU-PR-Consent.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-Workflow-EU/main/Resources/fsh-generated/resources/StructureDefinition-GEM-ERPEU-PR-Consent.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-eu/StructureDefinition/GEM_ERPEU_PR_Medication",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Medication",
+        "file_name": "StructureDefinition-GEM-ERPEU-PR-Medication.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-Workflow-EU/main/Resources/fsh-generated/resources/StructureDefinition-GEM-ERPEU-PR-Medication.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-eu/StructureDefinition/GEM_ERPEU_PR_MedicationDispense",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "MedicationDispense",
+        "file_name": "StructureDefinition-GEM-ERPEU-PR-MedicationDispense.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-Workflow-EU/main/Resources/fsh-generated/resources/StructureDefinition-GEM-ERPEU-PR-MedicationDispense.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-eu/StructureDefinition/GEM_ERPEU_PR_Organization",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Organization",
+        "file_name": "StructureDefinition-GEM-ERPEU-PR-Organization.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-Workflow-EU/main/Resources/fsh-generated/resources/StructureDefinition-GEM-ERPEU-PR-Organization.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-eu/StructureDefinition/GEM_ERPEU_PR_PAR_Access_Authorization_Request",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Parameters",
+        "file_name": "StructureDefinition-GEM-ERPEU-PR-PAR-AccessAuthorization-Request.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-Workflow-EU/main/Resources/fsh-generated/resources/StructureDefinition-GEM-ERPEU-PR-PAR-AccessAuthorization-Request.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-eu/StructureDefinition/GEM_ERPEU_PR_PAR_Access_Authorization_Response",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Parameters",
+        "file_name": "StructureDefinition-GEM-ERPEU-PR-PAR-AccessAuthorization-Response.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-Workflow-EU/main/Resources/fsh-generated/resources/StructureDefinition-GEM-ERPEU-PR-PAR-AccessAuthorization-Response.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-eu/StructureDefinition/GEM_ERPEU_PR_PAR_CloseOperation_Input",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Parameters",
+        "file_name": "StructureDefinition-GEM-ERPEU-PR-PAR-Close-Operation-Input.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-Workflow-EU/main/Resources/fsh-generated/resources/StructureDefinition-GEM-ERPEU-PR-PAR-Close-Operation-Input.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-eu/StructureDefinition/GEM_ERPEU_PR_PAR_GET_Prescription_Input",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Parameters",
+        "file_name": "StructureDefinition-GEM-ERPEU-PR-PAR-EU-GET-Prescription-Input.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-Workflow-EU/main/Resources/fsh-generated/resources/StructureDefinition-GEM-ERPEU-PR-PAR-EU-GET-Prescription-Input.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-eu/StructureDefinition/GEM_ERPEU_PR_PAR_PATCH_Task_Input",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Parameters",
+        "file_name": "StructureDefinition-GEM-ERPEU-PR-PAR-PATCH-Task-Input.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-Workflow-EU/main/Resources/fsh-generated/resources/StructureDefinition-GEM-ERPEU-PR-PAR-PATCH-Task-Input.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-eu/StructureDefinition/GEM_ERPEU_PR_Practitioner",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Practitioner",
+        "file_name": "StructureDefinition-GEM-ERPEU-PR-Practitioner.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-Workflow-EU/main/Resources/fsh-generated/resources/StructureDefinition-GEM-ERPEU-PR-Practitioner.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-eu/StructureDefinition/GEM_ERPEU_PR_PractitionerRole",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "PractitionerRole",
+        "file_name": "StructureDefinition-GEM-ERPEU-PR-PractitionerRole.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-Workflow-EU/main/Resources/fsh-generated/resources/StructureDefinition-GEM-ERPEU-PR-PractitionerRole.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-eu/StructureDefinition/GEM_ERPEU_PR_PAR_GET_Prescription_Output",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Parameters",
+        "file_name": "StructureDefinition-gem-erpeu-pr-par-get-prescription-output.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-Workflow-EU/main/Resources/fsh-generated/resources/StructureDefinition-gem-erpeu-pr-par-get-prescription-output.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-eu/StructureDefinition/GEM_ERPEU_LOG_DispenseData",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "https://gematik.de/fhir/erp-eu/StructureDefinition/GEM_ERPEU_LOG_DispenseData",
+        "file_name": "StructureDefinition-logical-eu-dispense-data.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-Workflow-EU/main/Resources/fsh-generated/resources/StructureDefinition-logical-eu-dispense-data.json"
+      }
+    ]
+  },
+  {
+    "name": "spec-Digitale-Patientenrechnung",
+    "url": "https://github.com/gematik/spec-Digitale-Patientenrechnung",
+    "default_branch": "master",
+    "structure_definitions": [
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/DiPagAbrechnungsDiagnoseProzedur",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-DiPagAbrechnungsDiagnoseProzedur.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-DiPagAbrechnungsDiagnoseProzedur.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/DiPagAbrechnungsDiagnoseProzedurFreitext",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-DiPagAbrechnungsDiagnoseProzedurFreitext.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-DiPagAbrechnungsDiagnoseProzedurFreitext.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/DiPagRechnungspositionBehandlungsdatum",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-DiPagRechnungspositionBehandlungsdatum.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-DiPagRechnungspositionBehandlungsdatum.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/DiPagRechnungspositionZusatz",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-DiPagRechnungspositionZusatz.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-DiPagRechnungspositionZusatz.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/DiPagTeilsumme",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-DiPagTeilsumme.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-DiPagTeilsumme.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/DiPagTokenStornierteRechnung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-DiPagTokenStornierteRechnung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-DiPagTokenStornierteRechnung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/DiPagZusatzinformationZurAbrechnungsart",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-DiPagZusatzinformationZurAbrechnungsart.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-DiPagZusatzinformationZurAbrechnungsart.json"
+      },
+      {
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.period[x]",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-InvoicePeriod.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-InvoicePeriod.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-abzug-kassenanteil",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-dipag-abzug-kassenanteil.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-abzug-kassenanteil.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-behandlungsart",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-dipag-behandlungsart.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-behandlungsart.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-docref-fachrichtung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-dipag-docref-fachrichtung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-docref-fachrichtung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-docref-leistungsart",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-dipag-docref-leistungsart.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-docref-leistungsart.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-docref-signature",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-dipag-docref-signature.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-docref-signature.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-documentreference-gesamtbetrag",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-dipag-documentreference-gesamtbetrag.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-documentreference-gesamtbetrag.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-documentreference-markierung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-dipag-documentreference-markierung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-documentreference-markierung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-documentreference-rechnungsdatum",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-dipag-documentreference-rechnungsdatum.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-documentreference-rechnungsdatum.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-documentreference-zahlungszieldatum",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-dipag-documentreference-zahlungszieldatum.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-documentreference-zahlungszieldatum.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-dokumentenmetadaten",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "DocumentReference",
+        "file_name": "StructureDefinition-dipag-dokumentenmetadaten.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-dokumentenmetadaten.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-fachrichtung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-dipag-fachrichtung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-fachrichtung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-institution",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Organization",
+        "file_name": "StructureDefinition-dipag-institution.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-institution.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-nutzungsprotokoll",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "AuditEvent",
+        "file_name": "StructureDefinition-dipag-nutzungsprotokoll.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-nutzungsprotokoll.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-patient",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Patient",
+        "file_name": "StructureDefinition-dipag-patient.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-patient.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-person",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Practitioner",
+        "file_name": "StructureDefinition-dipag-person.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-person.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-rechnung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Invoice",
+        "file_name": "StructureDefinition-dipag-rechnung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-rechnung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-rechnungsdiagnose",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Condition",
+        "file_name": "StructureDefinition-dipag-rechnungsdiagnose.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-rechnungsdiagnose.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-rechnungsdokument",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Binary",
+        "file_name": "StructureDefinition-dipag-rechnungsdokument.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-rechnungsdokument.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-rechnungsposition-go-angaben",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-dipag-rechnungsposition-go-angaben.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-rechnungsposition-go-angaben.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-rechnungsposition-type",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-dipag-rechnungsposition-type.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-rechnungsposition-type.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-rechnungsposition",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "ChargeItem",
+        "file_name": "StructureDefinition-dipag-rechnungsposition.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-rechnungsposition.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-rechnungsprozedur",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Procedure",
+        "file_name": "StructureDefinition-dipag-rechnungsprozedur.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-rechnungsprozedur.json"
+      },
+      {
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.requestedPerformer",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-dipag-task-requestedPerformer.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-task-requestedPerformer.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-wegegeld-reiseentschaedigung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-dipag-wegegeld-reiseentschaedigung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-wegegeld-reiseentschaedigung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-zahlungsziel",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-dipag-zahlungsziel.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-zahlungsziel.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/dipag/StructureDefinition/dipag-zahnregion",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-dipag-zahnregion.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-Digitale-Patientenrechnung/master/Resources/fsh-generated/resources/StructureDefinition-dipag-zahnregion.json"
+      }
+    ]
+  },
+  {
+    "name": "spec-E-Rezept-ServiceRequest",
+    "url": "https://github.com/gematik/spec-E-Rezept-ServiceRequest",
+    "default_branch": "master",
+    "structure_definitions": [
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/alternative-delivery-address-ex",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-alternative-delivery-address-ex.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-alternative-delivery-address-ex.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/changed-medication-ex",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-changed-medication-ex.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-changed-medication-ex.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/eprescription-token-ex",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-eprescription-token-ex.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-eprescription-token-ex.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/erp-service-request-dispense-request",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "ServiceRequest",
+        "file_name": "StructureDefinition-erp-service-request-dispense-request.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-erp-service-request-dispense-request.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/erp-service-request-eprescription-token",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Identifier",
+        "file_name": "StructureDefinition-erp-service-request-eprescription-token.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-erp-service-request-eprescription-token.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/erp-service-request-medication-dispense",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "MedicationDispense",
+        "file_name": "StructureDefinition-erp-service-request-medication-dispense.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-erp-service-request-medication-dispense.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/erp-service-request-medication-request",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "MedicationRequest",
+        "file_name": "StructureDefinition-erp-service-request-medication-request.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-erp-service-request-medication-request.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/erp-service-request-message-container",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Bundle",
+        "file_name": "StructureDefinition-erp-service-request-message-container.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-erp-service-request-message-container.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/erp-service-request-organization",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Organization",
+        "file_name": "StructureDefinition-erp-service-request-organization.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-erp-service-request-organization.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/erp-service-request-patient",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Patient",
+        "file_name": "StructureDefinition-erp-service-request-patient.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-erp-service-request-patient.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/erp-service-request-practitioner",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Practitioner",
+        "file_name": "StructureDefinition-erp-service-request-practitioner.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-erp-service-request-practitioner.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/erp-service-request-prescription-request",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "ServiceRequest",
+        "file_name": "StructureDefinition-erp-service-request-prescription-request.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-erp-service-request-prescription-request.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/erp-service-request-procedure-identifier",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Identifier",
+        "file_name": "StructureDefinition-erp-service-request-procedure-identifier.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-erp-service-request-procedure-identifier.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/erp-service-request-request-header",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "MessageHeader",
+        "file_name": "StructureDefinition-erp-service-request-request-header.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-erp-service-request-request-header.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/erp-service-request-request-identifier",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Identifier",
+        "file_name": "StructureDefinition-erp-service-request-request-identifier.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-erp-service-request-request-identifier.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/gem-erp-sr-log-dispense-request-confirmation",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/gem-erp-sr-log-dispense-request-confirmation",
+        "file_name": "StructureDefinition-gem-erp-sr-log-dispense-request-confirmation.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-gem-erp-sr-log-dispense-request-confirmation.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/gem-erp-sr-log-dispense-request",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/gem-erp-sr-log-dispense-request",
+        "file_name": "StructureDefinition-gem-erp-sr-log-dispense-request.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-gem-erp-sr-log-dispense-request.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/gem-erp-sr-log-message-copy",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/gem-erp-sr-log-message-copy",
+        "file_name": "StructureDefinition-gem-erp-sr-log-message-copy.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-gem-erp-sr-log-message-copy.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/gem-erp-sr-log-prescription-request-cancellation",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/gem-erp-sr-log-prescription-request-cancellation",
+        "file_name": "StructureDefinition-gem-erp-sr-log-prescription-request-cancellation.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-gem-erp-sr-log-prescription-request-cancellation.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/gem-erp-sr-log-prescription-request-confirmation",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/gem-erp-sr-log-prescription-request-confirmation",
+        "file_name": "StructureDefinition-gem-erp-sr-log-prescription-request-confirmation.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-gem-erp-sr-log-prescription-request-confirmation.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/gem-erp-sr-log-prescription-request-rejection",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/gem-erp-sr-log-prescription-request-rejection",
+        "file_name": "StructureDefinition-gem-erp-sr-log-prescription-request-rejection.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-gem-erp-sr-log-prescription-request-rejection.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/gem-erp-sr-log-prescription-request",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/gem-erp-sr-log-prescription-request",
+        "file_name": "StructureDefinition-gem-erp-sr-log-prescription-request.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-gem-erp-sr-log-prescription-request.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/prescription-id-ex",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-prescription-id-ex.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-prescription-id-ex.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/redeem-by-patient-ex",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-redeem-by-patient-ex.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-redeem-by-patient-ex.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/remaining-supply-ex",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-remaining-supply-ex.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-remaining-supply-ex.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/remaining-supply-free-text-ex",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-remaining-supply-free-text-ex.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-remaining-supply-free-text-ex.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/erp-servicerequest/StructureDefinition/request-mvo-ex",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-request-mvo-ex.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-E-Rezept-ServiceRequest/master/Resources/fsh-generated/resources/StructureDefinition-request-mvo-ex.json"
+      }
+    ]
+  },
+  {
+    "name": "spec-ISiK-Medikation",
+    "url": "https://github.com/gematik/spec-ISiK-Medikation",
+    "default_branch": "main-stufe-4",
+    "structure_definitions": [
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ExtensionISiKAcceptedRisk",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ExtensionISiKAcceptedRisk.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Medikation/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ExtensionISiKAcceptedRisk.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ExtensionISiKBehandlungsziel",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ExtensionISiKBehandlungsziel.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Medikation/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ExtensionISiKBehandlungsziel.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ExtensionISiKMedicationRequestReplaces",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ExtensionISiKMedicationRequestReplaces.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Medikation/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ExtensionISiKMedicationRequestReplaces.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ExtensionISiKMedicationStatementReplaces",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ExtensionISiKMedicationStatementReplaces.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Medikation/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ExtensionISiKMedicationStatementReplaces.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ExtensionISiKMedikationsart",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ExtensionISiKMedikationsart.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Medikation/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ExtensionISiKMedikationsart.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ExtensionISiKSelbstmedikation",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ExtensionISiKSelbstmedikation.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Medikation/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ExtensionISiKSelbstmedikation.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKAMTSBewertung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "RiskAssessment",
+        "file_name": "StructureDefinition-ISiKAMTSBewertung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Medikation/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKAMTSBewertung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKMedikament",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Medication",
+        "file_name": "StructureDefinition-ISiKMedikament.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Medikation/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKMedikament.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKMedikationTransaction",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Bundle",
+        "file_name": "StructureDefinition-ISiKMedikationTransaction.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Medikation/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKMedikationTransaction.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKMedikationTransactionResponse",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Bundle",
+        "file_name": "StructureDefinition-ISiKMedikationTransactionResponse.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Medikation/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKMedikationTransactionResponse.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKMedikationsInformation",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "MedicationStatement",
+        "file_name": "StructureDefinition-ISiKMedikationsInformation.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Medikation/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKMedikationsInformation.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKMedikationsListe",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "List",
+        "file_name": "StructureDefinition-ISiKMedikationsListe.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Medikation/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKMedikationsListe.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKMedikationsVerabreichung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "MedicationAdministration",
+        "file_name": "StructureDefinition-ISiKMedikationsVerabreichung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Medikation/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKMedikationsVerabreichung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKMedikationsVerordnung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "MedicationRequest",
+        "file_name": "StructureDefinition-ISiKMedikationsVerordnung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Medikation/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKMedikationsVerordnung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/MedicationQuantity",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Quantity",
+        "file_name": "StructureDefinition-MedicationQuantity.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Medikation/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-MedicationQuantity.json"
+      }
+    ]
+  },
+  {
+    "name": "spec-ISiK-Terminplanung",
+    "url": "https://github.com/gematik/spec-ISiK-Terminplanung",
+    "default_branch": "main-stufe-4",
+    "structure_definitions": [
+      {
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.replaces",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-AppointmentReplaces.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Terminplanung/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-AppointmentReplaces.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKalender",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Schedule",
+        "file_name": "StructureDefinition-ISiKKalender.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Terminplanung/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKKalender.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKMedizinischeBehandlungseinheit",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "HealthcareService",
+        "file_name": "StructureDefinition-ISiKMedizinischeBehandlungseinheit.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Terminplanung/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKMedizinischeBehandlungseinheit.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKNachricht",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Communication",
+        "file_name": "StructureDefinition-ISiKNachricht.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Terminplanung/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKNachricht.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKNachrichtExtension",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ISiKNachrichtExtension.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Terminplanung/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKNachrichtExtension.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKTermin",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Appointment",
+        "file_name": "StructureDefinition-ISiKTermin.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Terminplanung/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKTermin.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKTerminKontaktMitGesundheitseinrichtung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Encounter",
+        "file_name": "StructureDefinition-ISiKTerminKontaktMitGesundheitseinrichtung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Terminplanung/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKTerminKontaktMitGesundheitseinrichtung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKTerminPriorityExtension",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ISiKTerminPriorityExtension.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Terminplanung/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKTerminPriorityExtension.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKTerminblock",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Slot",
+        "file_name": "StructureDefinition-ISiKTerminblock.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Terminplanung/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKTerminblock.json"
+      },
+      {
+        "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.name",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Extension",
+        "file_name": "StructureDefinition-ScheduleName.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Terminplanung/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ScheduleName.json"
+      }
+    ]
+  },
+  {
+    "name": "spec-ISiK-Vitalparameter-und-Koerpermasze",
+    "url": "https://github.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze",
+    "default_branch": "main-stufe-4",
+    "structure_definitions": [
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKASKCoding",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coding",
+        "file_name": "StructureDefinition-ISiKASKCoding.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKASKCoding.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKATCCoding",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coding",
+        "file_name": "StructureDefinition-ISiKATCCoding.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKATCCoding.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKAtemfrequenz",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKAtemfrequenz.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKAtemfrequenz.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKBlutdruckSystemischArteriell",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKBlutdruckSystemischArteriell.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKBlutdruckSystemischArteriell.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKCoding",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coding",
+        "file_name": "StructureDefinition-ISiKCoding.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKCoding.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKEKG",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKEKG.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKEKG.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKGCS",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKGCS.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKGCS.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKHerzfrequenz",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKHerzfrequenz.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKHerzfrequenz.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKICD10GMCoding",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coding",
+        "file_name": "StructureDefinition-ISiKICD10GMCoding.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKICD10GMCoding.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpergewicht",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKKoerpergewicht.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKKoerpergewicht.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpergroesse",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKKoerpergroesse.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKKoerpergroesse.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerperkerntemperatur",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKKoerperkerntemperatur.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKKoerperkerntemperatur.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpertemperatur",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKKoerpertemperatur.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKKoerpertemperatur.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKKopfumfang",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKKopfumfang.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKKopfumfang.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLoincCoding",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coding",
+        "file_name": "StructureDefinition-ISiKLoincCoding.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKLoincCoding.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKPZNCoding",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coding",
+        "file_name": "StructureDefinition-ISiKPZNCoding.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKPZNCoding.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKSauerstoffsaettigungArteriell",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKSauerstoffsaettigungArteriell.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKSauerstoffsaettigungArteriell.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKSnomedCTCoding",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Coding",
+        "file_name": "StructureDefinition-ISiKSnomedCTCoding.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKSnomedCTCoding.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-herzzeitvolumen",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-herzzeitvolumen.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-herzzeitvolumen.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-ideales-koerpergewicht",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-ideales-koerpergewicht.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-ideales-koerpergewicht.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-intrakranieller-druck-icp",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-intrakranieller-druck-icp.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-intrakranieller-druck-icp.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpergewicht-percentil-altersabhaengig",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpergewicht-percentil-altersabhaengig.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpergewicht-percentil-altersabhaengig.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpergroesse-percentil-altersabhaengig",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpergroesse-percentil-altersabhaengig.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpergroesse-percentil-altersabhaengig.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-achsel",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-achsel.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-achsel.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-atemwege",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-atemwege.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-atemwege.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-blut",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-blut.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-blut.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-brust",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-brust.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-brust.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-brustwirbelsaeule",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-brustwirbelsaeule.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-brustwirbelsaeule.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-gelenk",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-gelenk.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-gelenk.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-generisch",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-generisch.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-generisch.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-halswirbelsaeule",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-halswirbelsaeule.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-halswirbelsaeule.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-harnblase",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-harnblase.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-harnblase.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-kern",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-kern.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-kern.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-leiste",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-leiste.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-leiste.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-lendenwirbelsaeule",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-lendenwirbelsaeule.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-lendenwirbelsaeule.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-myokard",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-myokard.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-myokard.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-nasal",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-nasal.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-nasal.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-nasen-rachen-raum",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-nasen-rachen-raum.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-nasen-rachen-raum.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-rektal",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-rektal.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-rektal.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-speiseroehre",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-speiseroehre.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-speiseroehre.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-stirn",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-stirn.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-stirn.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-trommelfell",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-trommelfell.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-trommelfell.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-unter-der-zunge",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-unter-der-zunge.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-unter-der-zunge.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-koerpertemperatur-vaginal",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-koerpertemperatur-vaginal.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-koerpertemperatur-vaginal.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksatrialer-druck",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-linksatrialer-druck.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksatrialer-druck.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventri-herzindex-durch-indikatorverduennung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-linksventri-herzindex-durch-indikatorverduennung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventri-herzindex-durch-indikatorverduennung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventri-herzzeitvolumen-durch-indikatorverd",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-linksventri-herzzeitvolumen-durch-indikatorverd.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventri-herzzeitvolumen-durch-indikatorverd.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventri-schlagvolumen-durch-indikatorverduennung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-linksventri-schlagvolumen-durch-indikatorverduennung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventri-schlagvolumen-durch-indikatorverduennung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventri-schlagvolumenindex-durch-indikatorverd",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-linksventri-schlagvolumenindex-durch-indikatorverd.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventri-schlagvolumenindex-durch-indikatorverd.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventrikulaerer-druck",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-linksventrikulaerer-druck.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventrikulaerer-druck.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventrikulaerer-herzindex",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-linksventrikulaerer-herzindex.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventrikulaerer-herzindex.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventrikulaeres-schlagvolumen",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-linksventrikulaeres-schlagvolumen.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventrikulaeres-schlagvolumen.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-linksventrikulaeres-schlagvolumenindex",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-linksventrikulaeres-schlagvolumenindex.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-linksventrikulaeres-schlagvolumenindex.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-monitoring-und-vitaldaten",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-monitoring-und-vitaldaten.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-monitoring-und-vitaldaten.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-o2saettigung-im-arteriellen-blut-durch-pulsoxymetrie.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-o2saettigung-im-blut-postduktal-durch-pulsoxymetrie",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-o2saettigung-im-blut-postduktal-durch-pulsoxymetrie.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-o2saettigung-im-blut-postduktal-durch-pulsoxymetrie.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-o2saettigung-im-blut-preduktal-durch-pulsoxymetrie",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-o2saettigung-im-blut-preduktal-durch-pulsoxymetrie.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-o2saettigung-im-blut-preduktal-durch-pulsoxymetrie.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-pulmonalarterieller-blutdruck",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-pulmonalarterieller-blutdruck.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-pulmonalarterieller-blutdruck.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-pulmonalarterieller-wedge-druck",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-pulmonalarterieller-wedge-druck.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-pulmonalarterieller-wedge-druck.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-pulmonalvaskulaerer-widerstandsindex",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-pulmonalvaskulaerer-widerstandsindex.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-pulmonalvaskulaerer-widerstandsindex.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-puls",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-puls.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-puls.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-rechtsatrialer-druck",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-rechtsatrialer-druck.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-rechtsatrialer-druck.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-rechtsventrikulaerer-druck",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-rechtsventrikulaerer-druck.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-rechtsventrikulaerer-druck.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-sonstige-pulsatile-druecke-generisch",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-sonstige-pulsatile-druecke-generisch.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-sonstige-pulsatile-druecke-generisch.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-systemischer-vaskulaerer-widerstandsindex",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-systemischer-vaskulaerer-widerstandsindex.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-systemischer-vaskulaerer-widerstandsindex.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-zentralvenoeser-blutdruck",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-sd-mii-icu-zentralvenoeser-blutdruck.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Vitalparameter-und-Koerpermasze/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-sd-mii-icu-zentralvenoeser-blutdruck.json"
+      }
+    ]
+  },
+  {
+    "name": "spec-ISiK-Dokumentenaustausch",
+    "url": "https://github.com/gematik/spec-ISiK-Dokumentenaustausch",
+    "default_branch": "main-stufe-4",
+    "structure_definitions": [
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKDokumentenMetadaten",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "DocumentReference",
+        "file_name": "StructureDefinition-ISiKDokumentenMetadaten.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Dokumentenaustausch/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKDokumentenMetadaten.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKDokumentenSuchergebnisse",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Bundle",
+        "file_name": "StructureDefinition-ISiKDokumentenSuchergebnisse.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Dokumentenaustausch/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKDokumentenSuchergebnisse.json"
+      }
+    ]
+  },
+  {
+    "name": "spec-ISiK-Labor",
+    "url": "https://github.com/gematik/spec-ISiK-Labor",
+    "default_branch": "main-stufe-4",
+    "structure_definitions": [
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchung",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLaboruntersuchung.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Labor/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKLaboruntersuchung.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungCRP",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLaboruntersuchungCRP.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Labor/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKLaboruntersuchungCRP.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungGFR",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLaboruntersuchungGFR.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Labor/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKLaboruntersuchungGFR.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungHb",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLaboruntersuchungHb.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Labor/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKLaboruntersuchungHb.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungPCT",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLaboruntersuchungPCT.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Labor/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKLaboruntersuchungPCT.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungSerumkreatinin",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLaboruntersuchungSerumkreatinin.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Labor/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKLaboruntersuchungSerumkreatinin.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungTSH",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLaboruntersuchungTSH.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Labor/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKLaboruntersuchungTSH.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungThrombozyten",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLaboruntersuchungThrombozyten.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Labor/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKLaboruntersuchungThrombozyten.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLaboruntersuchungTroponin",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Observation",
+        "file_name": "StructureDefinition-ISiKLaboruntersuchungTroponin.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiK-Labor/main-stufe-4/Resources/fsh-generated/resources/StructureDefinition-ISiKLaboruntersuchungTroponin.json"
+      }
+    ]
+  },
+  {
+    "name": "spec-TemplateForSimplifierProjects",
+    "url": "https://github.com/gematik/spec-TemplateForSimplifierProjects",
+    "default_branch": "main",
+    "structure_definitions": [
+      {
+        "url": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ExamplePatient",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Patient",
+        "file_name": "StructureDefinition-ExamplePatient.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-TemplateForSimplifierProjects/main/Resources/fsh-generated/resources/StructureDefinition-ExamplePatient.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ExampleValueSet",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "ValueSet",
+        "file_name": "StructureDefinition-ExampleValueSet.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-TemplateForSimplifierProjects/main/Resources/fsh-generated/resources/StructureDefinition-ExampleValueSet.json"
+      }
+    ]
+  },
+  {
+    "name": "spec-ISiP",
+    "url": "https://github.com/gematik/spec-ISiP",
+    "default_branch": "main",
+    "structure_definitions": [
+      {
+        "url": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPAngehoeriger",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "RelatedPerson",
+        "file_name": "StructureDefinition-ISiPAngehoeriger.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiP/main/Resources/fsh-generated/resources/StructureDefinition-ISiPAngehoeriger.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPersonImGesundheitswesen",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Practitioner",
+        "file_name": "StructureDefinition-ISiPPersonImGesundheitswesen.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiP/main/Resources/fsh-generated/resources/StructureDefinition-ISiPPersonImGesundheitswesen.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPflegeempfaenger",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Patient",
+        "file_name": "StructureDefinition-ISiPPflegeempfaenger.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiP/main/Resources/fsh-generated/resources/StructureDefinition-ISiPPflegeempfaenger.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/ISiPPflegeepisode",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Encounter",
+        "file_name": "StructureDefinition-ISiPPflegeepisode.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiP/main/Resources/fsh-generated/resources/StructureDefinition-ISiPPflegeepisode.json"
+      },
+      {
+        "url": "https://gematik.de/fhir/isip/v1/Basismodul/StructureDefinition/IsipOrganization",
+        "resourceType": "StructureDefinition",
+        "meta_profile": null,
+        "type": "Organization",
+        "file_name": "StructureDefinition-IsipOrganization.json",
+        "raw_url": "https://raw.githubusercontent.com/gematik/spec-ISiP/main/Resources/fsh-generated/resources/StructureDefinition-IsipOrganization.json"
+      }
+    ]
+  }
+]
