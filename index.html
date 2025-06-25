@@ -5,20 +5,24 @@
   <meta charset="utf-8">
 </head>
 <body>
-  <input type="text" id="search" placeholder="Filter table..." onkeyup="filterTable()">
-  <input type="text" id="typeFilter" placeholder="Filter by Type..." onkeyup="filterTypeColumn()">
-  <label for="typeDropdown">Type filtern:</label>
-  <select id="typeDropdown" onchange="filterTypeDropdown()">
-    <option value="">Alle</option>
-    <option value="Patient">Patient</option>
-    <option value="Practitioner">Practitioner</option>
-    <option value="Organization">Organization</option>
-    <option value="Encounter">Encounter</option>
-    <option value="Condition">Condition</option>
-    <option value="Medication">Medication</option>
-    <option value="MedicationRequest">MedicationRequest</option>
-    <option value="MedicationStatement">MedicationStatement</option>
-  </select>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <canvas id="typeChart" width="400" height="150" style="margin-bottom:20px;"></canvas>
+  <div style="margin-bottom:10px;">
+    <input type="text" id="search" placeholder="Filter table..." onkeyup="filterTable()">
+    <input type="text" id="typeFilter" placeholder="Filter by Type..." onkeyup="filterTypeColumn()">
+    <label for="typeDropdown">Type filtern:</label>
+    <select id="typeDropdown" onchange="filterTypeDropdown()">
+      <option value="">Alle</option>
+      <option value="Patient">Patient</option>
+      <option value="Practitioner">Practitioner</option>
+      <option value="Organization">Organization</option>
+      <option value="Encounter">Encounter</option>
+      <option value="Condition">Condition</option>
+      <option value="Medication">Medication</option>
+      <option value="MedicationRequest">MedicationRequest</option>
+      <option value="MedicationStatement">MedicationStatement</option>
+    </select>
+  </div>
 <table id="myTable" border="1">
     <thead>
         <tr id="headerRow"></tr>
@@ -44,6 +48,47 @@
             });
     });
 
+    let chartInstance = null;
+    function renderTypeChart(typeCounts) {
+      const ctx = document.getElementById('typeChart').getContext('2d');
+      const labels = [
+        'Patient',
+        'Practitioner',
+        'Organization',
+        'Encounter',
+        'Condition',
+        'Medication',
+        'MedicationRequest',
+        'MedicationStatement'
+      ];
+      const data = labels.map(label => typeCounts[label] || 0);
+      if (chartInstance) chartInstance.destroy();
+      chartInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: 'Anzahl Profile pro Typ',
+            data: data,
+            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+            borderColor: 'rgba(54, 162, 235, 1)',
+            borderWidth: 1
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { display: false },
+            title: { display: true, text: 'Profile nach (ausgewähltem)Typ' }
+          },
+          scales: {
+            y: { beginAtZero: true, precision:0 }
+          }
+        }
+      });
+    }
+
+    // Patch renderTable to also update the chart
     function renderTable(data) {
         if (!Array.isArray(data) || data.length === 0) {
             document.getElementById('tableBody').innerHTML = '<tr><td>No data available</td></tr>';
@@ -106,6 +151,19 @@
                 });
             }
         });
+
+        // Count types for chart
+        const typeCounts = {};
+        data.forEach(item => {
+            if (Array.isArray(item.structure_definitions)) {
+                item.structure_definitions.forEach(sd => {
+                    const t = sd.type;
+                    if (typeCounts[t]) typeCounts[t]++;
+                    else typeCounts[t] = 1;
+                });
+            }
+        });
+        renderTypeChart(typeCounts);
     }
   </script>
   <script>
