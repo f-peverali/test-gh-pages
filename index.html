@@ -7,6 +7,18 @@
 <body>
   <input type="text" id="search" placeholder="Filter table..." onkeyup="filterTable()">
   <input type="text" id="typeFilter" placeholder="Filter by Type..." onkeyup="filterTypeColumn()">
+  <label for="typeDropdown">Type filtern:</label>
+  <select id="typeDropdown" onchange="filterTypeDropdown()">
+    <option value="">Alle</option>
+    <option value="Patient">Patient</option>
+    <option value="Practitioner">Practitioner</option>
+    <option value="Organization">Organization</option>
+    <option value="Encounter">Encounter</option>
+    <option value="Condition">Condition</option>
+    <option value="Medication">Medication</option>
+    <option value="MedicationRequest">MedicationRequest</option>
+    <option value="MedicationStatement">MedicationStatement</option>
+  </select>
 <table id="myTable" border="1">
     <thead>
         <tr id="headerRow"></tr>
@@ -119,6 +131,20 @@
         // The 'Type' column is the 7th column (index 6)
         let typeCell = row.cells[6];
         if (typeCell && typeCell.textContent.toLowerCase().includes(input)) {
+          row.style.display = '';
+        } else {
+          row.style.display = 'none';
+        }
+      });
+    }
+  </script>
+  <script>
+    function filterTypeDropdown() {
+      let selected = document.getElementById('typeDropdown').value.toLowerCase();
+      let rows = document.querySelectorAll('#myTable tbody tr');
+      rows.forEach(row => {
+        let typeCell = row.cells[6];
+        if (!selected || (typeCell && typeCell.textContent.toLowerCase() === selected)) {
           row.style.display = '';
         } else {
           row.style.display = 'none';
