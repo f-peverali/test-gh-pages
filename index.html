@@ -6,6 +6,7 @@
 </head>
 <body>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <canvas id="pieChart" width="400" height="150" style="margin-bottom:20px;"></canvas>
   <canvas id="typeChart" width="400" height="150" style="margin-bottom:20px;"></canvas>
   <div style="margin-bottom:10px;">
     <input type="text" id="search" placeholder="Filter table..." onkeyup="filterTable()">
@@ -48,6 +49,34 @@
             });
     });
 
+    let pieInstance = null;
+    function renderPieChart(typeCounts) {
+      const ctx = document.getElementById('pieChart').getContext('2d');
+      const labels = Object.keys(typeCounts);
+      const data = Object.values(typeCounts);
+      const backgroundColors = [
+        '#36A2EB', '#FF6384', '#FFCE56', '#4BC0C0', '#9966FF', '#FF9F40', '#8BC34A', '#E91E63', '#607D8B', '#795548', '#F44336', '#00BCD4'
+      ];
+      if (pieInstance) pieInstance.destroy();
+      pieInstance = new Chart(ctx, {
+        type: 'pie',
+        data: {
+          labels: labels,
+          datasets: [{
+            data: data,
+            backgroundColor: backgroundColors,
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { display: true },
+            title: { display: true, text: 'Profile nach Typ (alle Typen, Pie Chart)' }
+          }
+        }
+      });
+    }
+
     let chartInstance = null;
     function renderTypeChart(typeCounts) {
       const ctx = document.getElementById('typeChart').getContext('2d');
@@ -88,7 +117,7 @@
       });
     }
 
-    // Patch renderTable to also update the chart
+    // Patch renderTable to also update the pie chart
     function renderTable(data) {
         if (!Array.isArray(data) || data.length === 0) {
             document.getElementById('tableBody').innerHTML = '<tr><td>No data available</td></tr>';
@@ -163,6 +192,7 @@
                 });
             }
         });
+        renderPieChart(typeCounts);
         renderTypeChart(typeCounts);
     }
   </script>
